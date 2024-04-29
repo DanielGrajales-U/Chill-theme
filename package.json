@@ -1,0 +1,32 @@
+{
+  "name": "chill-theme",
+  "displayName": "Chill-theme",
+  "description": "Dark-theme for your eyes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon/healthicons--child-cognition-negative.png",
+  "author": {
+    "name": "Daniel Grajales",
+    "email": "dani22.24gra@gmail.com",
+    "url": "https://www.linkedin.com/in/daniel-grajales/"
+  },
+  "repository": {
+    "url": "https://github.com/DanielGrajales-U/Chill-theme",
+    "type": "git"
+  },
+  "publisher": "chill-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chill-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Chill-theme-color-theme.json"
+      }
+    ]
+  }
+}
